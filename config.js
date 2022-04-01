@@ -14,7 +14,7 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 global.linkGC = ['https://chat.whatsapp.com/JEDQfzMGZan4HA98wtxsNL', 'https://chat.whatsapp.com/LcbHXfIVrD9APFFW2E9cXC', 'https://chat.whatsapp.com/Dj8kMyI48u6KGbaAQtKi70'] // ganti jadi group lu
-global.owner = ['6281250521455', '6281250521455', '6281250521455'] // Masukan nomot kalian
+global.owner = ['6285733374626', '6281250521455', '6281250521455'] // Masukan nomot kalian
 global.mods = ['6281250521455', '6281250521455'] // Moderator
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
@@ -54,8 +54,8 @@ global.APIKeys = { // APIKey Here
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'AhmadBOT'
-  var sticker_author = '©AhmadBOT    ?'
+  var sticker_name = 'GleenBOT'
+  var sticker_author = '©GleenBOT    ?'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -79,7 +79,7 @@ global.nsfw = '“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mere
 global.eror = '_*Error*_'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&doScale=true&scaleWidth=500&scaleHeight=500&fontsize=100&fillTextType=0&backgroundColor=%23101820&text='
-global.watermark = '©AhmadBOT    ?' //change the watermark (beberapa harus manual)
+global.watermark = '©GleenBOT    ?' //change the watermark (beberapa harus manual)
 
 // Ubah saja
 global.image = 'https://telegra.ph/file/a60af91a1c5b4e12967fd.jpg'//thumbnail
@@ -89,7 +89,7 @@ global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
 global.thanks = 'https://telegra.ph/file/01917f7782b70de8f418d.jpg'
 
 // tingkat kesulitan, semakin tinggi semakin susah
-global.multiplier = 500 // The higher, The harder levelup
+global.multiplier = 400 // The higher, The harder levelup
 
 //*****************PEMBATAS*********************
 // JANGAN DI GANTI NTAR KLO GABISA JAN TANYA GW
